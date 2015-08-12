@@ -1,0 +1,5 @@
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.UserRegistry.QueryStack\bin\Debug\CashLady.UserRegistry.QueryStack.dll
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.UserRegistry.QueryStack\bin\Debug\CashLady.UserRegistry.QueryStack.pdb
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.UserRegistry.QueryStack\obj\Debug\CashLady.UserRegistry.QueryStack.dll
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.UserRegistry.QueryStack\obj\Debug\CashLady.UserRegistry.QueryStack.pdb
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.UserRegistry.QueryStack\obj\Debug\CashLady.UserRegistry.QueryStack.csprojResolveAssemblyReference.cache

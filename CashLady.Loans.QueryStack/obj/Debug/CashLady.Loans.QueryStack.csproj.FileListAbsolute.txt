@@ -1,0 +1,5 @@
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Loans.QueryStack\bin\Debug\CashLady.Loans.QueryStack.dll
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Loans.QueryStack\bin\Debug\CashLady.Loans.QueryStack.pdb
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Loans.QueryStack\obj\Debug\CashLady.Loans.QueryStack.dll
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Loans.QueryStack\obj\Debug\CashLady.Loans.QueryStack.pdb
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Loans.QueryStack\obj\Debug\CashLady.Loans.QueryStack.csprojResolveAssemblyReference.cache

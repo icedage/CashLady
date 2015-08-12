@@ -1,0 +1,4 @@
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.UserRegistry.CommandStack\bin\Debug\CashLady.UserRegistry.CommandStack.dll
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.UserRegistry.CommandStack\bin\Debug\CashLady.UserRegistry.CommandStack.pdb
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.UserRegistry.CommandStack\obj\Debug\CashLady.UserRegistry.CommandStack.dll
+c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.UserRegistry.CommandStack\obj\Debug\CashLady.UserRegistry.CommandStack.pdb
