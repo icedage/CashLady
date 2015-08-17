@@ -1,0 +1,5 @@
+C:\Projects\CashLady\src\CashLady.Infrastructure\obj\Debug\CashLady.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Projects\CashLady\src\CashLady.Infrastructure\bin\Debug\CashLady.Infrastructure.dll
+C:\Projects\CashLady\src\CashLady.Infrastructure\bin\Debug\CashLady.Infrastructure.pdb
+C:\Projects\CashLady\src\CashLady.Infrastructure\obj\Debug\CashLady.Infrastructure.dll
+C:\Projects\CashLady\src\CashLady.Infrastructure\obj\Debug\CashLady.Infrastructure.pdb

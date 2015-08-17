@@ -2,3 +2,8 @@ c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Domain\bi
 c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Domain\bin\Debug\CashLady.Domain.pdb
 c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Domain\obj\Debug\CashLady.Domain.dll
 c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Domain\obj\Debug\CashLady.Domain.pdb
+C:\Projects\CashLady\src\CashLady.Domain\bin\Debug\CashLady.Domain.dll
+C:\Projects\CashLady\src\CashLady.Domain\bin\Debug\CashLady.Domain.pdb
+C:\Projects\CashLady\src\CashLady.Domain\obj\Debug\CashLady.Domain.csprojResolveAssemblyReference.cache
+C:\Projects\CashLady\src\CashLady.Domain\obj\Debug\CashLady.Domain.dll
+C:\Projects\CashLady\src\CashLady.Domain\obj\Debug\CashLady.Domain.pdb

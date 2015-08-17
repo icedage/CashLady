@@ -3,3 +3,8 @@ c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Loans.Com
 c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Loans.CommandStack\obj\Debug\CashLady.Loans.CommandStack.dll
 c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Loans.CommandStack\obj\Debug\CashLady.Loans.CommandStack.pdb
 c:\Users\admin\documents\visual studio 2013\Projects\CashLady\CashLady.Loans.CommandStack\obj\Debug\CashLady.Loans.CommandStack.csprojResolveAssemblyReference.cache
+C:\Projects\CashLady\src\CashLady.Loans.CommandStack\bin\Debug\CashLady.Loans.CommandStack.dll
+C:\Projects\CashLady\src\CashLady.Loans.CommandStack\bin\Debug\CashLady.Loans.CommandStack.pdb
+C:\Projects\CashLady\src\CashLady.Loans.CommandStack\obj\Debug\CashLady.Loans.CommandStack.csprojResolveAssemblyReference.cache
+C:\Projects\CashLady\src\CashLady.Loans.CommandStack\obj\Debug\CashLady.Loans.CommandStack.dll
+C:\Projects\CashLady\src\CashLady.Loans.CommandStack\obj\Debug\CashLady.Loans.CommandStack.pdb

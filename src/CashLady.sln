@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashLady.Domain", "CashLady
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashLady.WebAPI", "CashLady.WebAPI\CashLady.WebAPI.csproj", "{08225F15-0A29-489A-B4E4-5735E539D00A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashLady.Infrastructure", "CashLady.Infrastructure\CashLady.Infrastructure.csproj", "{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,16 @@ Global
 		{08225F15-0A29-489A-B4E4-5735E539D00A}.Release|ARM.ActiveCfg = Release|Any CPU
 		{08225F15-0A29-489A-B4E4-5735E539D00A}.Release|x64.ActiveCfg = Release|Any CPU
 		{08225F15-0A29-489A-B4E4-5735E539D00A}.Release|x86.ActiveCfg = Release|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Release|x64.ActiveCfg = Release|Any CPU
+		{1317B6BE-22EA-48CE-B8A9-25C0609F1D3F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
