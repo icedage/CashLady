@@ -7,8 +7,8 @@
     <ProjectGuid>{26AA45A2-F51C-4376-9564-E1742F118B92}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>eShop.UserRegistry.QueryStack</RootNamespace>
-    <AssemblyName>CashLady.UserRegistry.QueryStack</AssemblyName>
+    <RootNamespace>eShop.Product.QueryStack</RootNamespace>
+    <AssemblyName>eShop.Product.QueryStack</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
