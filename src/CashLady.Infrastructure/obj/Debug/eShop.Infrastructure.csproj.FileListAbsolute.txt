@@ -1,0 +1,11 @@
+C:\DotNet\CashLady\src\CashLady.Infrastructure\bin\Debug\eShop.Infrastructure.dll
+C:\DotNet\CashLady\src\CashLady.Infrastructure\bin\Debug\eShop.Infrastructure.pdb
+C:\DotNet\CashLady\src\CashLady.Infrastructure\bin\Debug\Raven.Abstractions.dll
+C:\DotNet\CashLady\src\CashLady.Infrastructure\bin\Debug\Raven.Client.Lightweight.dll
+C:\DotNet\CashLady\src\CashLady.Infrastructure\bin\Debug\Raven.Abstractions.pdb
+C:\DotNet\CashLady\src\CashLady.Infrastructure\bin\Debug\Raven.Abstractions.xml
+C:\DotNet\CashLady\src\CashLady.Infrastructure\bin\Debug\Raven.Client.Lightweight.pdb
+C:\DotNet\CashLady\src\CashLady.Infrastructure\bin\Debug\Raven.Client.Lightweight.xml
+C:\DotNet\CashLady\src\CashLady.Infrastructure\obj\Debug\eShop.Infrastructure.dll
+C:\DotNet\CashLady\src\CashLady.Infrastructure\obj\Debug\eShop.Infrastructure.pdb
+C:\DotNet\CashLady\src\CashLady.Infrastructure\obj\Debug\eShop.Infrastructure.csprojResolveAssemblyReference.cache

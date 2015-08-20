@@ -1,0 +1,14 @@
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\eShop.WebAPI.dll.config
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\eShop.WebAPI.dll
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\eShop.WebAPI.pdb
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\Newtonsoft.Json.dll
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\System.Web.Http.dll
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\Newtonsoft.Json.xml
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\System.Web.Http.xml
+C:\DotNet\CashLady\src\CashLady.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\DotNet\CashLady\src\CashLady.WebAPI\obj\Debug\eShop.WebAPI.csprojResolveAssemblyReference.cache
+C:\DotNet\CashLady\src\CashLady.WebAPI\obj\Debug\eShop.WebAPI.dll
+C:\DotNet\CashLady\src\CashLady.WebAPI\obj\Debug\eShop.WebAPI.pdb

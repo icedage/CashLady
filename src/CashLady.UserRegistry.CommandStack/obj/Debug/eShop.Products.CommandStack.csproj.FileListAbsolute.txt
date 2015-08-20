@@ -1,0 +1,3 @@
+C:\DotNet\CashLady\src\CashLady.UserRegistry.CommandStack\obj\Debug\eShop.Products.CommandStack.csprojResolveAssemblyReference.cache
+C:\DotNet\CashLady\src\CashLady.UserRegistry.CommandStack\obj\Debug\CashLady.UserRegistry.CommandStack.dll
+C:\DotNet\CashLady\src\CashLady.UserRegistry.CommandStack\obj\Debug\CashLady.UserRegistry.CommandStack.pdb

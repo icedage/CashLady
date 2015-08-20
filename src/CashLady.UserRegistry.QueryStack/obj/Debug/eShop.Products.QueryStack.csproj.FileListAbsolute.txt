@@ -1,0 +1,5 @@
+C:\DotNet\CashLady\src\CashLady.UserRegistry.QueryStack\bin\Debug\CashLady.UserRegistry.QueryStack.dll
+C:\DotNet\CashLady\src\CashLady.UserRegistry.QueryStack\bin\Debug\CashLady.UserRegistry.QueryStack.pdb
+C:\DotNet\CashLady\src\CashLady.UserRegistry.QueryStack\obj\Debug\eShop.Products.QueryStack.csprojResolveAssemblyReference.cache
+C:\DotNet\CashLady\src\CashLady.UserRegistry.QueryStack\obj\Debug\CashLady.UserRegistry.QueryStack.dll
+C:\DotNet\CashLady\src\CashLady.UserRegistry.QueryStack\obj\Debug\CashLady.UserRegistry.QueryStack.pdb
