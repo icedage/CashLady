@@ -9,3 +9,4 @@ C:\DotNet\CashLady\src\CashLady.Infrastructure\bin\Debug\Raven.Client.Lightweigh
 C:\DotNet\CashLady\src\CashLady.Infrastructure\obj\Debug\eShop.Infrastructure.dll
 C:\DotNet\CashLady\src\CashLady.Infrastructure\obj\Debug\eShop.Infrastructure.pdb
 C:\DotNet\CashLady\src\CashLady.Infrastructure\obj\Debug\eShop.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Projects\CashLady\src\eShop.Infrastructure\obj\Debug\eShop.Infrastructure.csprojResolveAssemblyReference.cache

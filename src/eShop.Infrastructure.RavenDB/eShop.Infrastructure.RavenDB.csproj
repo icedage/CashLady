@@ -60,7 +60,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CashLady.Infrastructure\eShop.Infrastructure.csproj">
+    <ProjectReference Include="..\eShop.Infrastructure\eShop.Infrastructure.csproj">
       <Project>{1317b6be-22ea-48ce-b8a9-25c0609f1d3f}</Project>
       <Name>eShop.Infrastructure</Name>
     </ProjectReference>

@@ -11,3 +11,16 @@ C:\DotNet\CashLady\src\CashLady.WebAPI\bin\System.Web.Http.xml
 C:\DotNet\CashLady\src\CashLady.WebAPI\bin\System.Web.Http.WebHost.xml
 C:\DotNet\CashLady\src\CashLady.WebAPI\obj\Debug\eShop.WebAPI.dll
 C:\DotNet\CashLady\src\CashLady.WebAPI\obj\Debug\eShop.WebAPI.pdb
+C:\Projects\CashLady\src\eShop.WebAPI\bin\eShop.WebAPI.dll.config
+C:\Projects\CashLady\src\eShop.WebAPI\bin\eShop.WebAPI.dll
+C:\Projects\CashLady\src\eShop.WebAPI\bin\eShop.WebAPI.pdb
+C:\Projects\CashLady\src\eShop.WebAPI\bin\Newtonsoft.Json.dll
+C:\Projects\CashLady\src\eShop.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Projects\CashLady\src\eShop.WebAPI\bin\System.Web.Http.dll
+C:\Projects\CashLady\src\eShop.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Projects\CashLady\src\eShop.WebAPI\bin\Newtonsoft.Json.xml
+C:\Projects\CashLady\src\eShop.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Projects\CashLady\src\eShop.WebAPI\bin\System.Web.Http.xml
+C:\Projects\CashLady\src\eShop.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Projects\CashLady\src\eShop.WebAPI\obj\Debug\eShop.WebAPI.dll
+C:\Projects\CashLady\src\eShop.WebAPI\obj\Debug\eShop.WebAPI.pdb

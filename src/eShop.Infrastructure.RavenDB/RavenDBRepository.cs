@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Raven.Client.Indexes;
 
 namespace eShop.Infrastructure.RavenDB
 {
-    public class RavenDBRepository<T> : IRepository<T> where T: IAggregate
+    public class RavenDBRepository<T> : IRepository //where T: IAggregate
     {
         private static EmbeddableDocumentStore DocumentStore { get; set; }
 
@@ -36,23 +37,9 @@ namespace eShop.Infrastructure.RavenDB
             Bus = bus;
         }
 
-        public void Save<T>(T item)
-        {
-            PersistAggregate(item);
-        }
+      
 
-        public T GetById<T>(Guid id)
-        {
-            using (var session = DocumentStore.OpenSession())
-            {
-                var item = session.Load<T>(id);
-                return item;
-            }
-        }
-
-        public T GerById<T, K>(Guid id)
-            where K : Raven.Client.Indexes.AbstractIndexCreationTask, new()
-        {
+        public T GerById<T>(Guid id){
             throw new NotImplementedException();
         }
 
@@ -72,6 +59,37 @@ namespace eShop.Infrastructure.RavenDB
                 .ToList()
                 .ForEach(e => Bus.RaiseEvent(e));
             item.ClearUncomittedEvents();
+        }
+
+        public void Save<T>(T item) where T : IAggregate
+        {
+            PersistAggregate(item);
+        }
+
+        public T GetById<T>(Guid id) where T : IAggregate
+        {
+            throw new NotImplementedException();
+        }
+
+        public T GerById<T, K>(Guid id)
+            where T : IAggregate
+            where K : AbstractIndexCreationTask, new()
+        {
+            using (var session = DocumentStore.OpenSession())
+            {
+                var item = session.Load<T>(id);
+                return item;
+            }
+        }
+
+
+        public T GetById(Guid id)
+        {
+            using (var session = DocumentStore.OpenSession())
+            {
+                var item = session.Load<T>(id);
+                return item;
+            }
         }
     }
 }

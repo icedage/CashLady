@@ -14,3 +14,4 @@ C:\DotNet\CashLady\src\eShop.Infrastructure.RavenDB\obj\Debug\eShop.Infrastructu
 C:\DotNet\CashLady\src\eShop.Infrastructure.RavenDB\obj\Debug\eShop.Infrastructure.RavenDB.pdb
 C:\DotNet\CashLady\src\eShop.Infrastructure.RavenDB\bin\Debug\eShop.Infrastructure.dll
 C:\DotNet\CashLady\src\eShop.Infrastructure.RavenDB\bin\Debug\eShop.Infrastructure.pdb
+C:\Projects\CashLady\src\eShop.Infrastructure.RavenDB\obj\Debug\eShop.Infrastructure.RavenDB.csprojResolveAssemblyReference.cache

@@ -2,3 +2,7 @@ C:\DotNet\CashLady\src\CashLady.Domain\bin\Debug\eShop.Domain.dll
 C:\DotNet\CashLady\src\CashLady.Domain\bin\Debug\eShop.Domain.pdb
 C:\DotNet\CashLady\src\CashLady.Domain\obj\Debug\eShop.Domain.dll
 C:\DotNet\CashLady\src\CashLady.Domain\obj\Debug\eShop.Domain.pdb
+C:\Projects\CashLady\src\eShop.Domain\bin\Debug\eShop.Domain.dll
+C:\Projects\CashLady\src\eShop.Domain\bin\Debug\eShop.Domain.pdb
+C:\Projects\CashLady\src\eShop.Domain\obj\Debug\eShop.Domain.dll
+C:\Projects\CashLady\src\eShop.Domain\obj\Debug\eShop.Domain.pdb
