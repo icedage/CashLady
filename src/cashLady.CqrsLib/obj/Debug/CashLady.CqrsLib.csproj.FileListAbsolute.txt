@@ -1,0 +1,5 @@
+C:\projects\CashLady\src\cashLady.CqrsLib\bin\Debug\cashLady.CqrsLib.dll
+C:\projects\CashLady\src\cashLady.CqrsLib\bin\Debug\cashLady.CqrsLib.pdb
+C:\projects\CashLady\src\cashLady.CqrsLib\obj\Debug\cashLady.CqrsLib.dll
+C:\projects\CashLady\src\cashLady.CqrsLib\obj\Debug\cashLady.CqrsLib.pdb
+C:\projects\CashLady\src\cashLady.CqrsLib\obj\Debug\CashLady.CqrsLib.csprojResolveAssemblyReference.cache

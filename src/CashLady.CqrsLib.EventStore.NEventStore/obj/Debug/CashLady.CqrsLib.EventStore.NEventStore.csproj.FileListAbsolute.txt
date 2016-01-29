@@ -1,0 +1,16 @@
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\CashLady.CqrsLib.EventStore.NEventStore.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\CashLady.CqrsLib.EventStore.NEventStore.pdb
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\cashLady.CqrsLib.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\MongoDB.Bson.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\MongoDB.Driver.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\NEventStore.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\NEventStore.Persistence.MongoDB.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\cashLady.CqrsLib.pdb
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\MongoDB.Bson.xml
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\MongoDB.Driver.xml
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\NEventStore.pdb
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\NEventStore.xml
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\bin\Debug\NEventStore.Persistence.MongoDB.pdb
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\obj\Debug\CashLady.CqrsLib.EventStore.NEventStore.csprojResolveAssemblyReference.cache
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\obj\Debug\CashLady.CqrsLib.EventStore.NEventStore.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.NEventStore\obj\Debug\CashLady.CqrsLib.EventStore.NEventStore.pdb

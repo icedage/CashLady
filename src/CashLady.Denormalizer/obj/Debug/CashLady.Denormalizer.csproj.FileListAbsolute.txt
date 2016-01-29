@@ -1,0 +1,5 @@
+C:\projects\CashLady\src\CashLady.Denormalizer\bin\Debug\CashLady.Denormalizer.dll
+C:\projects\CashLady\src\CashLady.Denormalizer\bin\Debug\CashLady.Denormalizer.pdb
+C:\projects\CashLady\src\CashLady.Denormalizer\obj\Debug\CashLady.Denormalizer.csprojResolveAssemblyReference.cache
+C:\projects\CashLady\src\CashLady.Denormalizer\obj\Debug\CashLady.Denormalizer.dll
+C:\projects\CashLady\src\CashLady.Denormalizer\obj\Debug\CashLady.Denormalizer.pdb

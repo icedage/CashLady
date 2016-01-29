@@ -2,7 +2,3 @@ C:\DotNet\CashLady\src\CashLady.UserRegistry.QueryStack\bin\Debug\eShop.Product.
 C:\DotNet\CashLady\src\CashLady.UserRegistry.QueryStack\bin\Debug\eShop.Product.QueryStack.pdb
 C:\DotNet\CashLady\src\CashLady.UserRegistry.QueryStack\obj\Debug\eShop.Product.QueryStack.dll
 C:\DotNet\CashLady\src\CashLady.UserRegistry.QueryStack\obj\Debug\eShop.Product.QueryStack.pdb
-C:\Projects\CashLady\src\eShop.Product.QueryStack\bin\Debug\eShop.Product.QueryStack.dll
-C:\Projects\CashLady\src\eShop.Product.QueryStack\bin\Debug\eShop.Product.QueryStack.pdb
-C:\Projects\CashLady\src\eShop.Product.QueryStack\obj\Debug\eShop.Product.QueryStack.dll
-C:\Projects\CashLady\src\eShop.Product.QueryStack\obj\Debug\eShop.Product.QueryStack.pdb

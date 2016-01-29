@@ -1,0 +1,7 @@
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.InMemory\bin\Debug\CashLady.CqrsLib.EventStore.InMemory.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.InMemory\bin\Debug\CashLady.CqrsLib.EventStore.InMemory.pdb
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.InMemory\bin\Debug\cashLady.CqrsLib.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.InMemory\bin\Debug\cashLady.CqrsLib.pdb
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.InMemory\obj\Debug\CashLady.CqrsLib.EventStore.InMemory.csprojResolveAssemblyReference.cache
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.InMemory\obj\Debug\CashLady.CqrsLib.EventStore.InMemory.dll
+C:\projects\CashLady\src\CashLady.CqrsLib.EventStore.InMemory\obj\Debug\CashLady.CqrsLib.EventStore.InMemory.pdb

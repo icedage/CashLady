@@ -49,12 +49,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sagas\ProductSaga.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\eShop.Infrastructure\eShop.Infrastructure.csproj">
-      <Project>{1317b6be-22ea-48ce-b8a9-25c0609f1d3f}</Project>
-      <Name>eShop.Infrastructure</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

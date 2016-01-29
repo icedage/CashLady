@@ -6,3 +6,4 @@ C:\Projects\CashLady\src\eShop.Domain\bin\Debug\eShop.Domain.dll
 C:\Projects\CashLady\src\eShop.Domain\bin\Debug\eShop.Domain.pdb
 C:\Projects\CashLady\src\eShop.Domain\obj\Debug\eShop.Domain.dll
 C:\Projects\CashLady\src\eShop.Domain\obj\Debug\eShop.Domain.pdb
+C:\projects\CashLady\src\eShop.Domain\obj\Debug\eShop.Domain.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\projects\CashLady\src\CashLady.Domain\bin\Debug\CashLady.Domain.dll
+C:\projects\CashLady\src\CashLady.Domain\bin\Debug\CashLady.Domain.pdb
+C:\projects\CashLady\src\CashLady.Domain\bin\Debug\cashLady.CqrsLib.dll
+C:\projects\CashLady\src\CashLady.Domain\bin\Debug\cashLady.CqrsLib.pdb
+C:\projects\CashLady\src\CashLady.Domain\obj\Debug\CashLady.Domain.csprojResolveAssemblyReference.cache
+C:\projects\CashLady\src\CashLady.Domain\obj\Debug\CashLady.Domain.dll
+C:\projects\CashLady\src\CashLady.Domain\obj\Debug\CashLady.Domain.pdb
