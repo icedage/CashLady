@@ -1,4 +1,5 @@
 ﻿using CashLady.CqrsLib;
+using System;
 
 namespace CashLady.Domain.Version1.Commands
 {
@@ -10,10 +11,10 @@ namespace CashLady.Domain.Version1.Commands
 
         public decimal MonthlyPayment { get; set; }
 
-        public decimal OriginationFee { get; set; }
+        public decimal LoanAmount { get; set; }
 
-        public decimal TotalRepayment { get; set; }
-
-        public decimal TotalInterest { get; set; }
+        public string FriendlyLoanReference { get; set; }
+        
+        public Guid UserId { get; set; }
     }
 }

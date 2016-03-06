@@ -4,9 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NEventStore;
+using NEventStore.Persistence.Sql.SqlDialects;
 
 namespace CashLady.CqrsLib.EventStore.NEventStore
 {
+    public class EventStoreFactory
+    {
+        public static IEventStore CreateSqlEventStore(string connectionName)
+        {
+            return new EventStore(Wireup.Init()
+                .LogToOutputWindow()
+                .UsingInMemoryPersistence()
+                .UsingSqlPersistence("EventStore") // Connection string is in app.config
+                    .WithDialect(new MsSqlDialect())
+                    .InitializeStorageEngine()
+                    .UsingJsonSerialization()
+                .Build());
+        }
+
+       
+    }
+
     public class EventStore : IEventStore
     {
         private readonly IStoreEvents store;
@@ -52,5 +70,7 @@ namespace CashLady.CqrsLib.EventStore.NEventStore
                 }
             }
         }
+
+       
     }
 }

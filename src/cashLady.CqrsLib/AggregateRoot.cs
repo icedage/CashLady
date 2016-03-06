@@ -53,8 +53,15 @@ namespace CashLady.CqrsLib
 
         private void ApplyChange(Event @event, bool isNew)
         {
-            this.AsDynamic().Apply(@event);
-            if (isNew) _changes.Add(@event);
+            try
+            {
+                this.AsDynamic().Apply(@event);
+                if (isNew) _changes.Add(@event);
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 
@@ -63,7 +70,7 @@ namespace CashLady.CqrsLib
 
         private static IDictionary<Type, IDictionary<string, IProperty>> _propertiesOnType = new ConcurrentDictionary<Type, IDictionary<string, IProperty>>();
 
-        // Simple abstraction to make field and property access consistent
+      //  Simple abstraction to make field and property access consistent
         interface IProperty
         {
             string Name { get; }

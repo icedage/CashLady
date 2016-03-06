@@ -45,6 +45,8 @@
     <Compile Include="Version1\Commands\ApplyForLoan.cs" />
     <Compile Include="Version1\Commands\UserRegister.cs" />
     <Compile Include="Version1\Events\LoanApplicationCompleted.cs" />
+    <Compile Include="Version1\Events\Payment.cs" />
+    <Compile Include="Version1\Events\UserRegistered.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

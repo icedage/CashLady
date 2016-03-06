@@ -1,9 +1,0 @@
-C:\projects\CashLady\src\CashLady.WebAPI.Tests\bin\Debug\CashLady.WebAPI.Tests.dll.config
-C:\projects\CashLady\src\CashLady.WebAPI.Tests\bin\Debug\CashLady.WebAPI.Tests.dll
-C:\projects\CashLady\src\CashLady.WebAPI.Tests\bin\Debug\CashLady.WebAPI.Tests.pdb
-C:\projects\CashLady\src\CashLady.WebAPI.Tests\bin\Debug\nunit.framework.dll
-C:\projects\CashLady\src\CashLady.WebAPI.Tests\bin\Debug\TechTalk.SpecFlow.dll
-C:\projects\CashLady\src\CashLady.WebAPI.Tests\bin\Debug\nunit.framework.xml
-C:\projects\CashLady\src\CashLady.WebAPI.Tests\obj\Debug\CashLady.WebAPI.Tests.csprojResolveAssemblyReference.cache
-C:\projects\CashLady\src\CashLady.WebAPI.Tests\obj\Debug\CashLady.WebAPI.Tests.dll
-C:\projects\CashLady\src\CashLady.WebAPI.Tests\obj\Debug\CashLady.WebAPI.Tests.pdb

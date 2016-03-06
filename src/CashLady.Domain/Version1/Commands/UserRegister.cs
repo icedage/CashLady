@@ -1,4 +1,5 @@
 ﻿using CashLady.CqrsLib;
+using System;
 
 namespace CashLady.Domain.Version1.Commands
 {
@@ -14,6 +15,10 @@ namespace CashLady.Domain.Version1.Commands
 
         public int PhoneNumber { get; set; }
 
+        public DateTime DoB { get; set; }
+
+        public string LoanReason { get; set; }
+
         public decimal AnnualIncomeBeforeTax { get; set; }
 
         public string HomeOwnership { get; set; }
@@ -21,5 +26,9 @@ namespace CashLady.Domain.Version1.Commands
         public decimal MonthlyRentContribution { get; set; }
 
         public decimal MonthlyMortgageContribution { get; set; }
+
+        public string EmploymentStatus { get; set; }
+
+        public Guid UserId { get; set; }
     }
 }

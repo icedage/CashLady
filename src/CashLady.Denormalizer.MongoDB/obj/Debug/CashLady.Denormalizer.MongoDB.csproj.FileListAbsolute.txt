@@ -1,0 +1,13 @@
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\CashLady.Denormalizer.MongoDB.dll.config
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\CashLady.Denormalizer.MongoDB.dll
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\CashLady.Denormalizer.MongoDB.pdb
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\MongoDB.Bson.dll
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\MongoDB.Driver.Core.dll
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\MongoDB.Driver.dll
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\MongoDB.Driver.Legacy.dll
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\MongoDB.Bson.xml
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\MongoDB.Driver.xml
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\MongoDB.Driver.Legacy.xml
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\obj\Debug\CashLady.Denormalizer.MongoDB.dll
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\obj\Debug\CashLady.Denormalizer.MongoDB.pdb
+C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\obj\Debug\CashLady.Denormalizer.MongoDB.csprojResolveAssemblyReference.cache
