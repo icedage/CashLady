@@ -41,7 +41,7 @@ namespace CashLady.WebAPI
             .Configure(configurer => configurer.Named(configurer.Implementation.Name))
             .LifestylePerWebRequest());
 
-            GlobalConfiguration.Configuration.DependencyResolver = new WindsorHttpDependencyResolver(container.Kernel);
+            var httpDependencyResolver = new WindsorHttpDependencyResolver(container.Kernel);
 
             container.Register(Types.FromAssemblyNamed("CashLady.Services").BasedOn<IConsumer>());
 
@@ -93,6 +93,7 @@ namespace CashLady.WebAPI
                .ImplementedBy<Repository<UserAggregate>>().DependsOn(eventStore)
                .LifeStyle.Transient);
 
+            httpConfig.DependencyResolver = httpDependencyResolver;
 
             app.UseWebApi(httpConfig);
 

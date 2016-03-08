@@ -16,12 +16,29 @@ namespace CashLady.Services.CommandHandlers.User
             this.repository = repository;
         }
 
-        public async Task Consume(ConsumeContext<UserRegister> context)
+        public Task Consume(ConsumeContext<UserRegister> context)
         {
             var aggregate = new UserAggregate();
-            aggregate.RegisterUser(new UserDetails());
+
+            aggregate.RegisterUser(new UserDetails() {
+                                                        AnnualIncomeBeforeTax = context.Message.AnnualIncomeBeforeTax,
+                                                        DoB = context.Message.DoB,
+                                                        Email = context.Message.Email,
+                                                        EmploymentStatus = context.Message.EmploymentStatus,
+                                                        Firstname = context.Message.Firstname,
+                                                        HomeOwnership = context.Message.HomeOwnership,
+                                                        Lastname = context.Message.Lastname,
+                                                        LoanReason = context.Message.LoanReason,
+                                                        MonthlyMortgageContribution= context.Message.MonthlyMortgageContribution,
+                                                        MonthlyRentContribution = context.Message.MonthlyRentContribution,
+                                                        PhoneNumber = context.Message.PhoneNumber,
+                                                        Title = context.Message.Title,
+                                                        UserId = context.Message.UserId
+            });
 
             repository.Save(aggregate);
+
+            return Task.FromResult(0);
         }
     }
 }

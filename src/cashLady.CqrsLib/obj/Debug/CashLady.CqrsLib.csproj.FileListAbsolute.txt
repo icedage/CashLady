@@ -6,6 +6,5 @@ C:\projects\CashLady\src\cashLady.CqrsLib\bin\Debug\Owin.dll
 C:\projects\CashLady\src\cashLady.CqrsLib\bin\Debug\System.Web.Cors.dll
 C:\projects\CashLady\src\cashLady.CqrsLib\bin\Debug\Microsoft.Owin.xml
 C:\projects\CashLady\src\cashLady.CqrsLib\bin\Debug\Microsoft.Owin.Cors.xml
-C:\projects\CashLady\src\cashLady.CqrsLib\obj\Debug\CashLady.CqrsLib.csprojResolveAssemblyReference.cache
 C:\projects\CashLady\src\cashLady.CqrsLib\obj\Debug\cashLady.CqrsLib.dll
 C:\projects\CashLady\src\cashLady.CqrsLib\obj\Debug\cashLady.CqrsLib.pdb

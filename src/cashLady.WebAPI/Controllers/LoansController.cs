@@ -14,9 +14,9 @@ namespace CashLady.WebAPI.Controllers
         private readonly ILoansViewRepository _loansViewRepository;
         // private readonly IUniqueRefService _uniqueRefService;
 
-        public LoansController()
+        public LoansController(ICommandSender command)
         {
-            //_command = command;
+            _command = command;
             //_loansViewRepository = loansViewRepository;
             //_uniqueRefService = uniqueRefService;
         }
