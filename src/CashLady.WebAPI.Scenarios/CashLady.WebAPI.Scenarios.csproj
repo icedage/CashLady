@@ -71,6 +71,7 @@
     <Compile Include="Helpers\HttpRequestDecorator.cs" />
     <Compile Include="Helpers\HttpRequestWrapper.cs" />
     <Compile Include="Helpers\RestSharpComponent.cs" />
+    <Compile Include="LoanFeaturesSteps78.cs" />
     <Compile Include="Loans\LoanFeatures.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
