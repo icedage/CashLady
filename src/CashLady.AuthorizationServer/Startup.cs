@@ -11,8 +11,8 @@ using Newtonsoft.Json.Serialization;
 using System.Net.Http.Formatting;
 using System.Configuration;
 using Microsoft.Owin.Security.DataHandler.Encoder;
-using Microsoft.Owin.Security.Jwt;
 using Microsoft.Owin.Security;
+using Microsoft.Owin.Security.Jwt;
 
 [assembly: OwinStartup(typeof(CashLady.AuthorizationServer.Startup))]
 
@@ -25,34 +25,27 @@ namespace CashLady.AuthorizationServer
             HttpConfiguration httpConfig = new HttpConfiguration();
             WebApiConfig.Register(httpConfig);
             ConfigureOAuthTokenGeneration(app);
-
+            ConfigureOAuthTokenConsumption(app);
             ConfigureWebApi(httpConfig);
 
-            app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
-
-            app.UseWebApi(httpConfig);
-
+           app.UseWebApi(httpConfig);
         }
 
         private void ConfigureWebApi(HttpConfiguration config)
         { 
-           // config.MapHttpAttributeRoutes();
-
-            var jsonFormatter = config.Formatters.OfType<JsonMediaTypeFormatter>().First();
+           var jsonFormatter = config.Formatters.OfType<JsonMediaTypeFormatter>().First();
             
             jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
         }
 
         private void ConfigureOAuthTokenGeneration(IAppBuilder app)
         {
-            // Configure the db context and user manager to use a single instance per request
             app.CreatePerOwinContext(ApplicationDbContext.Create);
             app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
             app.CreatePerOwinContext<ApplicationRoleManager>(ApplicationRoleManager.Create);
-
+            app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
             {
-                //For Dev enviroment only (on production should be AllowInsecureHttp = false)
                 AllowInsecureHttp = true,
                 TokenEndpointPath = new PathString("/oauth/token"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
@@ -66,7 +59,6 @@ namespace CashLady.AuthorizationServer
 
         private void ConfigureOAuthTokenConsumption(IAppBuilder app)
         {
-
             var issuer = "http://localhost:50644";
             string audienceId = ConfigurationManager.AppSettings["as:AudienceId"];
             byte[] audienceSecret = TextEncodings.Base64Url.Decode(ConfigurationManager.AppSettings["as:AudienceSecret"]);

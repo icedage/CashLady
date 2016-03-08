@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace eShop.WebAPI
+namespace CashLady.WebAPI
 {
     public class FilterConfig
     {

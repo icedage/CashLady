@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace eShop.WebAPI.Models
+namespace CashLady.WebAPI.Models
 {
     public class LoanReason
     {

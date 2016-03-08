@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CashLady.WebAPI.Scenarios.Entities
+namespace CashLady.WebAPI.Scenarios.Helpers
 {
     public class LoanRequest
     {

@@ -1,25 +1,28 @@
 ﻿using System.Web.Http;
 using CashLady.CqrsLib;
 using CashLady.Domain.Version1.Commands;
-using eShop.WebAPI.Models;
+using CashLady.WebAPI.Models;
 using System;
 using CashLady.Services.Generators;
+using CashLady.Denormalizer.MongoDB.MongoRepository;
 
-namespace eShop.WebAPI.Controllers
+namespace CashLady.WebAPI.Controllers
 {
     public class LoansController : ApiController
     {
         private readonly ICommandSender _command;
-       // private readonly IUniqueRefService _uniqueRefService;
+        private readonly ILoansViewRepository _loansViewRepository;
+        // private readonly IUniqueRefService _uniqueRefService;
 
-        public LoansController(ICommandSender command)
+        public LoansController()
         {
-             _command = command;
+            //_command = command;
+            //_loansViewRepository = loansViewRepository;
             //_uniqueRefService = uniqueRefService;
         }
 
         [HttpGet]
-        [Authorize(Roles ="Borrower,Underwriter")]
+        [Authorize(Roles ="SuperUser")]
         public IHttpActionResult Get()
         {
             return Ok();

@@ -6,7 +6,7 @@ using System.Web.Http.Dependencies;
 using Castle.MicroKernel.Lifestyle;
 using Castle.Windsor;
 
-namespace eShop.WebAPI.Infrastructure
+namespace CashLady.WebAPI.Infrastructure
 {
     internal class WindsorDependencyScope : IDependencyScope
         {

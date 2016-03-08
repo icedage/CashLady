@@ -10,6 +10,7 @@ namespace CashLady.AuthorizationServer.Controllers
     public class StatusController : ApiController
     {
         [HttpGet]
+        [Authorize(Roles ="SuperUser")]
         public IHttpActionResult Get()
         {
             return Ok("OK");

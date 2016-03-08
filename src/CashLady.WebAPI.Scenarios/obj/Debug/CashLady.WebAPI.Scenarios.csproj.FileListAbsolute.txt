@@ -2,6 +2,7 @@ C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\CashLady.WebAPI.Sce
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\CashLady.WebAPI.Scenarios.dll
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\CashLady.WebAPI.Scenarios.pdb
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\CashLady.Denormalizer.MongoDB.dll
+C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\Newtonsoft.Json.dll
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\nunit.framework.dll
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\RestSharp.dll
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\TechTalk.SpecFlow.dll
@@ -10,6 +11,7 @@ C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\MongoDB.Driver.Lega
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\MongoDB.Driver.dll
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\MongoDB.Driver.Core.dll
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\CashLady.Denormalizer.MongoDB.pdb
+C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\Newtonsoft.Json.xml
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\nunit.framework.xml
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\RestSharp.xml
 C:\projects\CashLady\src\CashLady.WebAPI.Scenarios\bin\Debug\MongoDB.Bson.xml

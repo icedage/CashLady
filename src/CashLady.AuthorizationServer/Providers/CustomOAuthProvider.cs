@@ -42,6 +42,7 @@ namespace CashLady.AuthorizationServer.Providers
                 return;
             }
 
+
             ClaimsIdentity oAuthIdentity = await user.GenerateUserIdentityAsync(userManager, "JWT");
 
             var ticket = new AuthenticationTicket(oAuthIdentity, null);

@@ -1,5 +1,6 @@
 ﻿using CashLady.Denormalizer.MongoDB.Entities;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CashLady.Denormalizer.MongoDB.MongoRepository
 {
@@ -12,5 +13,7 @@ namespace CashLady.Denormalizer.MongoDB.MongoRepository
         void Add(IEnumerable<T> entities);
 
         void Save(T entity);
+
+        IQueryable<T> All(int take = 0);
     }
 }

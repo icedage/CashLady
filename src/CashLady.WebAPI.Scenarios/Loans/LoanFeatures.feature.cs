@@ -64,38 +64,20 @@ namespace CashLady.WebAPI.Scenarios.Loans
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Apply for loan")]
+        [NUnit.Framework.DescriptionAttribute("Get all loans")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void ApplyForLoan()
+        public virtual void GetAllLoans()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Apply for loan", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get all loans", new string[] {
                         "mytag"});
-#line 4
-this.ScenarioSetup(scenarioInfo);
-#line 5
- testRunner.Given("a user applies for a loan", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 6
- testRunner.Then("the system should return a reference number", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 8
- testRunner.Given("I am a borroweer user", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 9
- testRunner.When("I request to view my loan details", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("I am a borroweer user", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
+ testRunner.When("I request to view my loan details", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
  testRunner.Then("System should return information regarding my Loan", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 12
- testRunner.Given("I am an underwtiter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 13
- testRunner.And("a user applies for a loan", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 14
- testRunner.When("I cancel the loan", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 15
- testRunner.Then("the loan Status should appear as Canceled", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 17
- testRunner.Given("I am an underwriter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 18
- testRunner.When("I request to view all loans", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 19
- testRunner.Then("the system should return all available laons", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

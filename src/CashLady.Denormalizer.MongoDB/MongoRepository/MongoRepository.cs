@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using MongoDB.Driver;
 using System;
+using System.Linq;
+using MongoDB.Driver.Linq;
 
 namespace CashLady.Denormalizer.MongoDB.MongoRepository
 {
@@ -40,6 +42,11 @@ namespace CashLady.Denormalizer.MongoDB.MongoRepository
         public void Add(T entity)
         {
             Collection.Insert<T>(entity);
+        }
+
+        public IQueryable<T> All(int take = 0)
+        {
+            return Collection.AsQueryable<T>();
         }
 
         public T GetById(string id)

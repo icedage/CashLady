@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace eShop.WebAPI.Models
+namespace CashLady.WebAPI.Models
 {
     public class ProductRequest
     {

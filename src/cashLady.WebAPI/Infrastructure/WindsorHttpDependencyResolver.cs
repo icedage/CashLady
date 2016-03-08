@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http.Dependencies;
 using Castle.MicroKernel;
 
-namespace eShop.WebAPI.Infrastructure
+namespace CashLady.WebAPI.Infrastructure
 {
     
         internal sealed class WindsorHttpDependencyResolver : System.Web.Http.Dependencies.IDependencyResolver
