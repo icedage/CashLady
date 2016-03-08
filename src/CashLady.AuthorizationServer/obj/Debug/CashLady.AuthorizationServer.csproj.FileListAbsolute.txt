@@ -83,7 +83,6 @@ C:\projects\CashLady\src\CashLady.AuthorizationServer\bin\System.Web.WebPages.De
 C:\projects\CashLady\src\CashLady.AuthorizationServer\bin\System.Web.WebPages.Razor.xml
 C:\projects\CashLady\src\CashLady.AuthorizationServer\bin\Thinktecture.IdentityModel.Core.pdb
 C:\projects\CashLady\src\CashLady.AuthorizationServer\bin\Antlr3.Runtime.pdb
-C:\projects\CashLady\src\CashLady.AuthorizationServer\obj\Debug\CashLady.AuthorizationServer.csprojResolveAssemblyReference.cache
 C:\projects\CashLady\src\CashLady.AuthorizationServer\obj\Debug\CashLady.AuthorizationServer.Migrations.InitialCreate.resources
 C:\projects\CashLady\src\CashLady.AuthorizationServer\obj\Debug\CashLady.AuthorizationServer.Migrations.InitialCreate1.resources
 C:\projects\CashLady\src\CashLady.AuthorizationServer\obj\Debug\CashLady.AuthorizationServer.csproj.GenerateResource.Cache

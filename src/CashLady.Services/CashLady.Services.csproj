@@ -75,6 +75,7 @@
   <ItemGroup>
     <Compile Include="CommandHandlers\Loan\ApplyForLoanHandler.cs" />
     <Compile Include="CommandHandlers\User\UserRegisterHandler.cs" />
+    <Compile Include="Domain\Loan\Loan.cs" />
     <Compile Include="Domain\Loan\LoanAggregate.cs" />
     <Compile Include="Domain\User\UserAggregate.cs" />
     <Compile Include="Domain\User\UserDetails.cs" />

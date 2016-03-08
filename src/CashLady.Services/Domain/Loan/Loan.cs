@@ -1,9 +1,12 @@
-﻿using CashLady.CqrsLib;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace CashLady.Domain.Version1.Commands
+namespace CashLady.Services.Domain.Loan
 {
-    public class ApplyForLoan : Command
+    public class Loan
     {
         public decimal Apr { get; set; }
 
@@ -11,16 +14,10 @@ namespace CashLady.Domain.Version1.Commands
 
         public decimal MonthlyPayment { get; set; }
 
-        public decimal LoanAmount { get; set; }
-
-        public string FriendlyLoanReference { get; set; }
-
         public decimal OriginationFee { get; set; }
 
         public decimal TotalRepayment { get; set; }
 
         public decimal TotalInterest { get; set; }
-
-        public Guid UserId { get; set; }
     }
 }

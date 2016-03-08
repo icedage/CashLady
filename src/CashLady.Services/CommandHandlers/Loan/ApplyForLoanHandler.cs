@@ -16,14 +16,18 @@ namespace CashLady.Services.CommandHandlers.Loan
             _repository = repository;
         }
 
-
         public Task Consume(ConsumeContext<ApplyForLoan> context)
         {
-            //Console.Write("  TXT: " + context.Message.What);
-            //Console.Write("  SENT: " + context.Message.When);
-            //Console.Write("  PROCESSED: " + DateTime.Now);
-            //Console.WriteLine(" (" + System.Threading.Thread.CurrentThread.ManagedThreadId + ")");
             var loanAggregate = new LoanAggregate();
+            loanAggregate.ApplyForLoan(new Domain.Loan.Loan()
+            {
+                Apr = context.Message.Apr,
+                MonthlyPayment = context.Message.MonthlyPayment,
+                Term = context.Message.Term,
+                TotalRepayment = context.Message.TotalRepayment,
+                OriginationFee = context.Message.OriginationFee,
+                TotalInterest = context.Message.TotalInterest
+            });
             _repository.Save(loanAggregate);
             return Task.FromResult(0);
         }
