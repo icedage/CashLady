@@ -11,5 +11,21 @@ namespace CashLady.Denormalizer.MongoDB.Repositories
 
         [BsonId]
         public string Id { get; set; }
+
+        public decimal Apr { get; set; }
+
+        public int Term { get; set; }
+
+        public decimal MonthlyPayment { get; set; }
+
+        public decimal LoanAmount { get; set; }
+
+        public string FriendlyLoanReference { get; set; }
+
+        public decimal OriginationFee { get; set; }
+
+        public decimal TotalRepayment { get; set; }
+
+        public decimal TotalInterest { get; set; }
     }
 }

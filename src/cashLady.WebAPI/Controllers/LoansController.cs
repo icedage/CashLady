@@ -5,35 +5,39 @@ using CashLady.WebAPI.Models;
 using System;
 using CashLady.Services.Generators;
 using CashLady.Denormalizer.MongoDB.MongoRepository;
+using System.Configuration;
+using CashLady.Denormalizer.MongoDB.Repositories;
+using System.Linq;
 
 namespace CashLady.WebAPI.Controllers
 {
     public class LoansController : ApiController
     {
         private readonly ICommandSender _command;
-        private readonly ILoansViewRepository _loansViewRepository;
-        // private readonly IUniqueRefService _uniqueRefService;
-
+        private ILoansViewRepository _loansViewRepository;
+        
         public LoansController(ICommandSender command)
         {
             _command = command;
-            //_loansViewRepository = loansViewRepository;
-            //_uniqueRefService = uniqueRefService;
+            //TODO : Need to fix the denendency issue with the ILoansViewRepository!!
+            var connection = ConfigurationManager.AppSettings["MongoDBconnection"];
+            MongoContextProvider contextProvider = new MongoContextProvider(connection, "LoansViewRepository");
+            _loansViewRepository = new LoansViewRepository(contextProvider);
         }
 
         [HttpGet]
         [Authorize(Roles ="SuperUser")]
         public IHttpActionResult Get()
         {
-            return Ok();
+            var loans = _loansViewRepository.All();
+            return Ok(loans.ToList());
         }
 
         [HttpPost]
         public IHttpActionResult Post(LoanRequest loanRequest)
         {
             var userId = Guid.NewGuid();
-           // string friendlyRef = _uniqueRefService.GetNewReference();
-
+           
             _command.Send(new ApplyForLoan()
             {
                 Apr = loanRequest.LoanDetails.Apr,
@@ -60,7 +64,9 @@ namespace CashLady.WebAPI.Controllers
                 UserId= userId
             });
 
-            return Ok(new { LoanRed = "Test" });
+            //Implement Service to generate a ref number
+            var quote = "Test"; 
+            return Ok(new { LoanRed = quote });
         }
     }
 }
