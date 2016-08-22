@@ -1,5 +1,6 @@
 ﻿using CashLady.CqrsLib;
 using CashLady.Domain.Version1.Events;
+using Microsoft.AspNet.Identity;
 using System;
 
 namespace CashLady.Services.Domain.User

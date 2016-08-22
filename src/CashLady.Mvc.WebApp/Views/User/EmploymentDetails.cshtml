@@ -1,0 +1,49 @@
+﻿@model CashLady.Mvc.WebApp.Models.EmploymentDetailsModel
+@{
+    ViewBag.Title = "EmploymentDetails";
+}
+
+<div class="form-group">
+    @Html.LabelFor(m => m.CurrentEmployment, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.TextBoxFor(m => m.CurrentEmployment, new { @class = "form-control" })
+    </div>
+</div>
+<p></p>
+<div class="form-group">
+    @Html.LabelFor(m => m.CurrentPosition, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.TextBoxFor(m => m.CurrentPosition, new { @class = "form-control" })
+    </div>
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.NetSalary, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.TextBoxFor(m => m.NetSalary, new { @class = "form-control" })
+    </div>
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.NationalInsuranceNumber, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.TextBoxFor(m => m.NationalInsuranceNumber, new { @class = "form-control" })
+    </div>
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.YearsWithCurrentEmployer, new { @class = "col-md-2 control-label" })
+    <div class="col-md-10">
+        @Html.TextBoxFor(m => m.YearsWithCurrentEmployer, new { @class = "form-control" })
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        <input type="submit" class="btn btn-default" value="Register" />
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#btnSubmit').click(function () {
+            return false; // prevent default
+        });
+    });
+</script>

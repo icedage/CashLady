@@ -1,0 +1,4 @@
+C:\Projects\CashLady\src\CashLady.Contracts\bin\Debug\CashLady.Contracts.dll
+C:\Projects\CashLady\src\CashLady.Contracts\bin\Debug\CashLady.Contracts.pdb
+C:\Projects\CashLady\src\CashLady.Contracts\obj\Debug\CashLady.Contracts.dll
+C:\Projects\CashLady\src\CashLady.Contracts\obj\Debug\CashLady.Contracts.pdb

@@ -23,3 +23,11 @@ C:\projects\CashLady\src\CashLady.Services\bin\Debug\Newtonsoft.Json.xml
 C:\projects\CashLady\src\CashLady.Services\obj\Debug\CashLady.Services.csprojResolveAssemblyReference.cache
 C:\projects\CashLady\src\CashLady.Services\obj\Debug\CashLady.Services.dll
 C:\projects\CashLady\src\CashLady.Services\obj\Debug\CashLady.Services.pdb
+C:\Projects\CashLady\src\CashLady.Services\bin\Debug\EntityFramework.dll
+C:\Projects\CashLady\src\CashLady.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\CashLady\src\CashLady.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\CashLady\src\CashLady.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\CashLady\src\CashLady.Services\bin\Debug\EntityFramework.xml
+C:\Projects\CashLady\src\CashLady.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\CashLady\src\CashLady.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\CashLady\src\CashLady.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

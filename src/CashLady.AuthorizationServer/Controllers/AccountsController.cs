@@ -32,7 +32,6 @@ namespace CashLady.AuthorizationServer.Controllers
             }
 
             return NotFound();
-
         }
 
         [Route("user/{username}")]

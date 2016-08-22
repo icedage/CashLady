@@ -19,6 +19,12 @@ namespace CashLady.WebAPI.Models
 
         public DateTime DoB { get; set; }
 
+        public string Password { get; set; }
+
+        public string Username { get; set; }
+
+        public string Pin { get; set; }
+
         private LoanReason LoanReason { get; set; }
     }
 }

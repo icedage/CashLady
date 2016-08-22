@@ -1,0 +1,10 @@
+C:\Projects\CashLady\src\CashLady.Gateway\bin\Debug\CashLady.Gateway.dll
+C:\Projects\CashLady\src\CashLady.Gateway\bin\Debug\CashLady.Gateway.pdb
+C:\Projects\CashLady\src\CashLady.Gateway\bin\Debug\CashLady.Contracts.dll
+C:\Projects\CashLady\src\CashLady.Gateway\bin\Debug\CashLady.Contracts.pdb
+C:\Projects\CashLady\src\CashLady.Gateway\obj\Debug\CashLady.Gateway.csprojResolveAssemblyReference.cache
+C:\Projects\CashLady\src\CashLady.Gateway\obj\Debug\CashLady.Gateway.dll
+C:\Projects\CashLady\src\CashLady.Gateway\obj\Debug\CashLady.Gateway.pdb
+C:\Projects\CashLady\src\CashLady.Gateway\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\CashLady\src\CashLady.Gateway\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\CashLady\src\CashLady.Gateway\bin\Debug\CashLady.Gateway.dll.config

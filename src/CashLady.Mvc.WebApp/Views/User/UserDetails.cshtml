@@ -1,0 +1,69 @@
+﻿@model CashLady.Mvc.WebApp.Models.UserModel
+
+@Scripts.Render("~/bundles/jquery")
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="form-horizontal">
+    <hr />
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Firstname, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Firstname, new { @class = "form-control" })
+            <br />
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Lastname, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Lastname, new { @class = "form-control" })
+            <br />
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.DoB, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.DoB, new { @class = "form-control" })
+            <br />
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.PhoneNumber, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+            <br />
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            <br />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Register" id="btnSubmit"/>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnSubmit').click(function () {
+               
+                var serviceURL = '/user/userDetails';
+                // window.location.href = serviceURL;
+
+
+                $.post(serviceURL, { 'Email': 'VALUE', 'Title': 'VALUE2' }, function (response) {
+                    /*Callback*/
+
+                    document.location = serviceURL;
+                })
+
+            });
+        });
+    </script>

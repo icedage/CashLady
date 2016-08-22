@@ -1,0 +1,38 @@
+﻿@model CashLady.Mvc.WebApp.Models.LoanPlanModel
+@Scripts.Render("~/bundles/jquery")
+@{
+    ViewBag.Title = "LoanPage";
+}
+
+<div id="form-horizontal">
+    <hr />
+    <div class="form-group">
+        @Html.LabelFor(x => x.PaymentsPlans, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(x => x.MonthlyPaymentId, new SelectList(Model.PaymentsPlans, "Months", "Text"), new { @class = "form-control" })
+        </div>
+    </div>
+    <br />
+    <p></p>
+    <div class="form-group">
+        @Html.LabelFor(x => x.MonthlyPayments, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(x => x.PaymentId, new SelectList(Model.MonthlyPayments, "Value", "Text"), new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Register" id="btnSubmit" />
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#btnSubmit').click(function () {
+            var localCustomerProfile = window.localStorage;
+            localCustomerProfile.setItem("Payment", $('#PaymentId').val());
+            localCustomerProfile.setItem("Plan", $('#MonthlyPaymentId').val());
+            return false; // prevent default
+        });
+    });
+</script>
