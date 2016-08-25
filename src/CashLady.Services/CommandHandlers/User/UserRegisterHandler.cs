@@ -16,6 +16,7 @@ namespace CashLady.Services.CommandHandlers.User
             this.repository = repository;
         }
 
+
         public Task Consume(ConsumeContext<UserRegister> context)
         {
             var aggregate = new UserAggregate();

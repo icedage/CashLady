@@ -25,13 +25,13 @@ namespace CashLady.Denormalizer
         {
             var loan = new Loan() { LoanId= Guid.NewGuid(),
                                     Id = ObjectId.GenerateNewId().ToString(),
-                                    TotalInterest = context.Message.TotalInterest,
-                                    Apr = context.Message.Apr,
-                                    LoanAmount = context.Message.LoanAmount,
-                                    MonthlyPayment = context.Message.MonthlyPayment,
-                                    OriginationFee = context.Message.OriginationFee,
-                                    Term = context.Message.Term,
-                                    TotalRepayment = context.Message.TotalRepayment,
+                                    //TotalInterest = context.Message.TotalInterest,
+                                    //Apr = context.Message.Apr,
+                                    //LoanAmount = context.Message.LoanAmount,
+                                    //MonthlyPayment = context.Message.MonthlyPayment,
+                                    //OriginationFee = context.Message.OriginationFee,
+                                    //Term = context.Message.Term,
+                                    //TotalRepayment = context.Message.TotalRepayment,
                                 };
             MongoContextProvider contextProvider = new MongoContextProvider("MongoDBconnection", "LoansViewRepository");
             _loansViewRepository = new LoansViewRepository(contextProvider);

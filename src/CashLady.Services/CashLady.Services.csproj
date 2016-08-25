@@ -90,7 +90,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandHandlers\User\EmploymentDetailsHandler.cs" />
     <Compile Include="CommandHandlers\Loan\ApplyForLoanHandler.cs" />
+    <Compile Include="CommandHandlers\User\UserAddressHandler.cs" />
     <Compile Include="CommandHandlers\User\UserRegisterHandler.cs" />
     <Compile Include="Domain\Loan\Loan.cs" />
     <Compile Include="Domain\Loan\LoanAggregate.cs" />

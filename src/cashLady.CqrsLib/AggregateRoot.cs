@@ -14,7 +14,7 @@ namespace CashLady.CqrsLib
         private readonly List<Event> _changes = new List<Event>();
         private int version = -1;
 
-        public abstract Guid Id { get; }
+       public abstract Guid Id { get; }
 
         public int Version
         {

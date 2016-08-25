@@ -101,3 +101,4 @@ C:\projects\CashLady\src\cashLady.WebAPI\bin\MongoDB.Driver.xml
 C:\projects\CashLady\src\cashLady.WebAPI\obj\Debug\CashLady.WebAPI.csprojResolveAssemblyReference.cache
 C:\projects\CashLady\src\cashLady.WebAPI\obj\Debug\CashLady.WebAPI.dll
 C:\projects\CashLady\src\cashLady.WebAPI\obj\Debug\CashLady.WebAPI.pdb
+C:\projects\CashLady\src\cashLady.WebAPI\bin\log4net.dll

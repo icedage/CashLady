@@ -2,12 +2,15 @@
 using CashLady.Domain.Version1.Events;
 using Microsoft.AspNet.Identity;
 using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+using CashLady.Domain.Entities;
 
 namespace CashLady.Services.Domain.User
 {
     public class UserAggregate : AggregateRoot
     {
-        private Guid userId;
+        private Guid _userId;
         private string _email { get; set; }
         private string _title { get; set; }
         private string _firstname { get; set; }
@@ -15,22 +18,34 @@ namespace CashLady.Services.Domain.User
         private int _phoneNumber { get; set; }
         private DateTime _doB { get; set; }
         private string _loanReason { get; set; }
+
         private decimal _annualIncomeBeforeTax { get; set; }
+
         private string _homeOwnership { get; set; }
+
         private decimal _monthlyRentContribution { get; set; }
+
         private decimal _monthlyMortgageContribution { get; set; }
+
         private string _employmentStatus { get; set; }
 
-        public UserAggregate()
-        {
-            
-        }
+        private IList<Address> _addresses { get; set; }
+
+        private decimal _netSalary { get; set; }
+
+        private string _nationalInsuranceNumber { get; set; }
+
+        private string _currentEmployment { get; set; }
+
+        private string _currentPosition { get; set; }
+
+        private int _yearsWithCurrentEmployer { get; set; }
 
         public override Guid Id
         {
             get
             {
-                return this.userId;
+                throw new NotImplementedException();
             }
         }
 
@@ -53,7 +68,29 @@ namespace CashLady.Services.Domain.User
                                                   });
         }
 
-        public void Apply(UserRegistered @event)
+        public void RegisterAddress(UserAddress address)
+        {
+            this.ApplyChange(new UserAddress()
+            {
+                Addresses = address.Addresses,
+                UserId = address.UserId
+            });
+        }
+
+        public void RegisterEmploymentDetails(EmploymentDetailsRegistered employmentDetailsRegistered)
+        {
+            this.ApplyChange(new EmploymentDetailsRegistered()
+            {
+                UserId = employmentDetailsRegistered.UserId,
+                NetSalary = employmentDetailsRegistered.NetSalary,
+                YearsWithCurrentEmployer = employmentDetailsRegistered.YearsWithCurrentEmployer,
+                NationalInsuranceNumber = employmentDetailsRegistered.NationalInsuranceNumber,
+                CurrentEmployment = employmentDetailsRegistered.CurrentEmployment,
+                CurrentPosition = employmentDetailsRegistered.CurrentPosition
+            });
+        }
+
+        private void Apply(UserRegistered @event)
         {
             _email = @event.Email;
             _title = @event.Title;
@@ -67,6 +104,23 @@ namespace CashLady.Services.Domain.User
             _monthlyMortgageContribution = @event.MonthlyMortgageContribution;
             _monthlyRentContribution = @event.MonthlyRentContribution;
             _employmentStatus = @event.EmploymentStatus;
+        }
+
+        private void Apply(UserAddress @event)
+        {
+            _addresses = @event.Addresses;
+            _userId = @event.UserId;
+        }
+
+        private void Apply(EmploymentDetailsRegistered @event)
+        {
+            _userId = @event.UserId;
+            _netSalary = @event.NetSalary;
+            _yearsWithCurrentEmployer = @event.YearsWithCurrentEmployer;
+            _nationalInsuranceNumber = @event.NationalInsuranceNumber;
+            _currentEmployment = @event.CurrentEmployment;
+            _currentPosition = @event.CurrentPosition;
+
         }
     }
 }

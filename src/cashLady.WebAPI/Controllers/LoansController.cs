@@ -40,10 +40,10 @@ namespace CashLady.WebAPI.Controllers
            
             _command.Send(new ApplyForLoan()
             {
-                Apr = loanRequest.LoanDetails.Apr,
-                MonthlyPayment = loanRequest.LoanDetails.MonthlyCost,
-                LoanAmount = loanRequest.LoanDetails.LoanAmount,
-                Term = loanRequest.LoanDetails.Term,
+                //Apr = loanRequest.LoanDetails.Apr,
+                //MonthlyPayment = loanRequest.LoanDetails.MonthlyCost,
+                //LoanAmount = loanRequest.LoanDetails.LoanAmount,
+                //Term = loanRequest.LoanDetails.Term,
                 
                 UserId = userId
             });
@@ -60,7 +60,7 @@ namespace CashLady.WebAPI.Controllers
                 MonthlyMortgageContribution = loanRequest.FinancialDetails.MonthlyMortgageContribution,
                 MonthlyRentContribution = loanRequest.FinancialDetails.MonthlyRentContribution,
                 LoanReason = loanRequest.LoanReason.Reason,
-                EmploymentStatus = loanRequest.FinancialDetails.Employment.EmploymentStatus,
+                //EmploymentStatus = loanRequest.FinancialDetails.Employment.EmploymentStatus,
                 UserId= userId
             });
 

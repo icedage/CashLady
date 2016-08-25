@@ -21,13 +21,14 @@ namespace CashLady.Services.CommandHandlers.Loan
             var loanAggregate = new LoanAggregate();
             loanAggregate.ApplyForLoan(new Domain.Loan.Loan()
             {
-                Apr = context.Message.Apr,
-                MonthlyPayment = context.Message.MonthlyPayment,
-                Term = context.Message.Term,
-                TotalRepayment = context.Message.TotalRepayment,
-                OriginationFee = context.Message.OriginationFee,
-                TotalInterest = context.Message.TotalInterest
+                //Apr = context.Message.Apr,
+                //MonthlyPayment = context.Message.MonthlyPayment,
+                //Term = context.Message.Term,
+                //TotalRepayment = context.Message.TotalRepayment,
+                //OriginationFee = context.Message.OriginationFee,
+                //TotalInterest = context.Message.TotalInterest
             });
+
             _repository.Save(loanAggregate);
             return Task.FromResult(0);
         }

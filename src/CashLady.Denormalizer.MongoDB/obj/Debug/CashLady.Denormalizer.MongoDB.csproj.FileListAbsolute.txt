@@ -10,4 +10,3 @@ C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\MongoDB.Driver.
 C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\bin\Debug\MongoDB.Driver.Legacy.xml
 C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\obj\Debug\CashLady.Denormalizer.MongoDB.dll
 C:\projects\CashLady\src\CashLady.Denormalizer.MongoDB\obj\Debug\CashLady.Denormalizer.MongoDB.pdb
-C:\Projects\CashLady\src\CashLady.Denormalizer.MongoDB\obj\Debug\CashLady.Denormalizer.MongoDB.csprojResolveAssemblyReference.cache

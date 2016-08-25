@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace CashLady.Mvc.WebApp.Models
 {
@@ -26,5 +27,9 @@ namespace CashLady.Mvc.WebApp.Models
         public string APR { get; set; }
 
         public decimal MonthlyPayment { get; set; }
+
+        public IEnumerable<TitleModel> Titles { get; set; }
+
+        public int TitleId { get; set; }
     }
 }

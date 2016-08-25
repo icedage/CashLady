@@ -9,6 +9,7 @@ namespace CashLady.Domain.Version1.Events
 {
     public class LoanApplicationCompleted : Event
     {
+        public Guid UserId { get; set; }
         public decimal Apr { get; set; }
 
         public int Term { get; set; }

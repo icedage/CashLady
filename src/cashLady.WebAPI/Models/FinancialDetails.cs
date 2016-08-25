@@ -7,7 +7,7 @@ namespace CashLady.WebAPI.Models
 {
     public class FinancialDetails
     {
-        public Employment Employment { get; set; }
+        //public Employment Employment { get; set; }
 
         public decimal AnnualIncomeBeforeTax { get; set; }
 

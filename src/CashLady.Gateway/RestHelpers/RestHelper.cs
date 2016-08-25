@@ -4,6 +4,8 @@ using CashLady.Contracts.WebApp;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Configuration;
+using System.Net.Http.Headers;
+using System.Text;
 
 namespace CashLady.Gateway.RestHelpers
 {
@@ -14,13 +16,23 @@ namespace CashLady.Gateway.RestHelpers
             throw new NotImplementedException();
         }
 
-        public async Task<RestResponse> DoPostRequest(StringContent data, string suffix)
+        public async Task<RestResponse> DoPostRequest(string data, string suffix)
         {
             var client = new HttpClient();
 
-            //  var stringContent = new StringContent(JsonConvert.SerializeObject(user));
+            var address = string.Format("{0}{1}", ConfigurationManager.AppSettings["CashLady.WebApi"],suffix);
 
-            var response = await client.PostAsync(ConfigurationManager.AppSettings["CachLady.WebApi"], data);
+         
+            client.DefaultRequestHeaders
+                  .Accept
+                  .Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "relativeAddress");
+            var content = new StringContent(data,
+                                                Encoding.UTF8,
+                                                "application/json");
+
+            var response = await client.PostAsync(address,content);
 
             return new RestResponse()
             {

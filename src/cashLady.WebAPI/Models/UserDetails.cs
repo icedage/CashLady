@@ -25,6 +25,16 @@ namespace CashLady.WebAPI.Models
 
         public string Pin { get; set; }
 
-        private LoanReason LoanReason { get; set; }
+        public Guid LoanId { get; set; }
+
+        public int LoanAmount { get; set; }
+
+        public int Years { get; set; }
+
+        public string APR { get; set; }
+
+        public decimal MonthlyPayment { get; set; }
+
+        public Guid UserId { get; set; }
     }
 }

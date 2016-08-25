@@ -86,7 +86,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IdenityServices\IRoleManager.cs" />
+    <Compile Include="IdenityServices\RoleManager.cs" />
+    <Compile Include="IdenityServices\UserManager.cs" />
     <Compile Include="Infrastructure\ApplicationDbContext.cs" />
+    <Compile Include="IdenityServices\IUserManager.cs" />
     <Compile Include="Migrations\201608172142393_InitialCreate.cs" />
     <Compile Include="Migrations\201608172142393_InitialCreate.Designer.cs">
       <DependentUpon>201608172142393_InitialCreate.cs</DependentUpon>

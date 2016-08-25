@@ -7,7 +7,13 @@
 
 <div id="form-horizontal">
     <hr />
-
+    <div class="form-group">
+        @Html.Label("Title", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(x => x.TitleId, new SelectList(Model.Titles, "Value", "Text"), new { @class = "form-control" })
+            <br />
+        </div>
+    </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Firstname, new { @class = "col-md-2 control-label" })
         <div class="col-md-10">
@@ -55,14 +61,21 @@
             $('#btnSubmit').click(function () {
                
                 var serviceURL = '/user/userDetails';
-                // window.location.href = serviceURL;
+             
+                    $.post(serviceURL,
+                    {
+                        'Email': $('#Email').val(),
+                        'Title': $('#Title').val(),
+                        'Firstname': $('#Firstname').val(),
+                        'Lastname': $('#Lastname').val(),
+                        'PhoneNumber': $('#PhoneNumber').val(),
+                        'DoB': $('#DoB').val()
+                    },
+                    function (response) {
+                        /*Callback*/
 
-
-                $.post(serviceURL, { 'Email': 'VALUE', 'Title': 'VALUE2' }, function (response) {
-                    /*Callback*/
-
-                    document.location = serviceURL;
-                })
+                        document.location = serviceURL;
+                    });
 
             });
         });

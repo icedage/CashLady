@@ -6,7 +6,7 @@ namespace CashLady.Gateway.RestHelpers
 {
     public interface IRestHelper
     {
-        Task<RestResponse> DoPostRequest(StringContent data, string suffix);
+        Task<RestResponse> DoPostRequest(string data, string suffix);
 
         RestResponse DoGetRequest();
     }

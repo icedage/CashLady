@@ -5,8 +5,10 @@ using System.Web;
 
 namespace CashLady.WebAPI.Models
 {
-    public class Employment 
+    public class UserAddress
     {
-        public string EmploymentStatus { get; set; }
+        public Guid UserId { get; set; }
+
+        public IList<Address> Addresses { get; set; }
     }
 }

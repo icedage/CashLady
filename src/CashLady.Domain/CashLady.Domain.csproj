@@ -41,11 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Address.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Version1\Commands\RegisterEmploymentDetails.cs" />
+    <Compile Include="Version1\Commands\UserAddressDetails.cs" />
     <Compile Include="Version1\Commands\ApplyForLoan.cs" />
     <Compile Include="Version1\Commands\UserRegister.cs" />
+    <Compile Include="Version1\Events\EmploymentDetailsRegistered.cs" />
     <Compile Include="Version1\Events\LoanApplicationCompleted.cs" />
     <Compile Include="Version1\Events\Payment.cs" />
+    <Compile Include="Version1\Events\UserAddress.cs" />
     <Compile Include="Version1\Events\UserRegistered.cs" />
   </ItemGroup>
   <ItemGroup />

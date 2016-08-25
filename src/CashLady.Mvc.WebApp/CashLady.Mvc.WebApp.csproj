@@ -213,10 +213,13 @@
     <Compile Include="Models\MonthlyPayment.cs" />
     <Compile Include="Models\PaymentsPlan.cs" />
     <Compile Include="Models\Responses\UserResponse.cs" />
+    <Compile Include="Models\TitleModel.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\UserRegistrationModel.cs" />
     <Compile Include="Presenters\ILoanPresenter.cs" />
+    <Compile Include="Presenters\IUserPresenter.cs" />
     <Compile Include="Presenters\LoanPresenter.cs" />
+    <Compile Include="Presenters\UserPresenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Models\LoanPageModel.cs" />

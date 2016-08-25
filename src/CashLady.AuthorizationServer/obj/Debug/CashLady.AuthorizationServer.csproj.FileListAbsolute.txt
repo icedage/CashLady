@@ -88,4 +88,3 @@ C:\projects\CashLady\src\CashLady.AuthorizationServer\obj\Debug\CashLady.Authori
 C:\projects\CashLady\src\CashLady.AuthorizationServer\obj\Debug\CashLady.AuthorizationServer.csproj.GenerateResource.Cache
 C:\projects\CashLady\src\CashLady.AuthorizationServer\obj\Debug\CashLady.AuthorizationServer.dll
 C:\projects\CashLady\src\CashLady.AuthorizationServer\obj\Debug\CashLady.AuthorizationServer.pdb
-C:\projects\CashLady\src\CashLady.AuthorizationServer\obj\Debug\CashLady.AuthorizationServer.csprojResolveAssemblyReference.cache

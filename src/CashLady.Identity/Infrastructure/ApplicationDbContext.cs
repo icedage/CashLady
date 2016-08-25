@@ -23,4 +23,4 @@ namespace CashLady.Identity.Infrastructure
         }
 
     }
-}
+  }

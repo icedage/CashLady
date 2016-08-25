@@ -30,7 +30,5 @@ namespace CashLady.Domain.Version1.Commands
         public string EmploymentStatus { get; set; }
 
         public Guid UserId { get; set; }
-
-
     }
 }

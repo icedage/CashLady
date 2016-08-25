@@ -255,12 +255,13 @@
     <Compile Include="Infrastructure\WindsorDependencyScope.cs" />
     <Compile Include="Infrastructure\WindsorHttpDependencyResolver.cs" />
     <Compile Include="Models\Address.cs" />
-    <Compile Include="Models\EmploymentStatus.cs" />
+    <Compile Include="Models\EmploymentDetails.cs" />
     <Compile Include="Models\FinancialDetails.cs" />
     <Compile Include="Models\LoanReason.cs" />
     <Compile Include="Models\LoanDetails.cs" />
     <Compile Include="Models\LoanRequest.cs" />
     <Compile Include="Models\ProductRequest.cs" />
+    <Compile Include="Models\UserAddress.cs" />
     <Compile Include="Models\UserDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
